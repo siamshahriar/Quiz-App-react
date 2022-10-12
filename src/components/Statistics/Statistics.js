@@ -8,15 +8,13 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer,
 } from "recharts";
-import './statistics.css';
+import "./statistics.css";
 
 const Statistics = () => {
   const barData = useLoaderData();
   return (
     <div className="stat-chart">
-        {/* <ResponsiveContainer width="100%" height="100%"> */}
       <BarChart
         width={500}
         height={500}
@@ -35,7 +33,6 @@ const Statistics = () => {
         <Legend />
         <Bar dataKey="total" fill="#8884d8" />
       </BarChart>
-      {/* </ResponsiveContainer> */}
     </div>
   );
 };

@@ -1,17 +1,12 @@
 import React from "react";
-import './Options.css';
+import "./Options.css";
 
-const Options = ({ option }) => {
+const Options = ({ option, correctChecker }) => {
   return (
-        <div className="eachOption">
-            {/* <p>{option}</p> */}
-            <input type="radio" id="html" value="HTML"/>
-  <label for="html">{option}</label><br></br>
-        </div>
-    );
+    <div onClick={() => correctChecker(option)} className="eachOption">
+      <p>{option}</p>
+    </div>
+  );
 };
 
 export default Options;
-
-
-
