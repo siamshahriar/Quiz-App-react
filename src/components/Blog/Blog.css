@@ -1,0 +1,40 @@
+.blogContainer {
+  width: 1200px;
+  margin: 3rem auto;
+}
+.eachBlogQuestion {
+  background-color: rgb(194, 255, 237);
+  padding: 2rem;
+  margin-bottom: 1.4rem;
+  border-radius: 8px;
+}
+.blogQues {
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: rgb(0, 53, 151);
+  text-align: center;
+}
+.blogAns {
+    font-size: 1.1rem;
+  text-align: center;
+}
+
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 768px) {
+    .blogContainer {
+        width: 600px;
+        
+      }
+
+    
+}
+@media only screen 
+and (min-device-width : 100px) 
+and (max-device-width : 480px) {
+    .blogContainer {
+        width: 300px;
+        
+      }
+    
+}
