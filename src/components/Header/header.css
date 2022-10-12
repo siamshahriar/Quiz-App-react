@@ -47,6 +47,9 @@ li {
   cursor: pointer;
   text-transform: capitalize;
 }
+.nav-links li:hover{
+  color: green;
+}
 
 .hero {
   text-align: center;
