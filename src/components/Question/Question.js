@@ -9,9 +9,12 @@ const Question = ({ que }) => {
   console.log(options);
   return (
     <div className="question">
-      <button>
-        <FontAwesomeIcon className="eyeIcon" icon={faEye}></FontAwesomeIcon>
-      </button>
+      <div className="eyebutton">
+        <button>
+          <FontAwesomeIcon className="eyeIcon" icon={faEye}></FontAwesomeIcon>
+        </button>
+      </div>
+
       <p className="eachQuestion">Question: {question}</p>
       <div className="optionsContainer">
         {options.map((option) => (

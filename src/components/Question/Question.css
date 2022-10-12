@@ -1,31 +1,59 @@
-.question{
-    margin: 2rem 0;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 2rem;
+.question {
+  margin: 2rem 0;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2rem;
 }
-.eachQuestion{
-    text-align: center;
-    padding: 0 60px;
+.eachQuestion {
+  text-align: center;
+  padding: 0 60px;
 }
-.optionsContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+.optionsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
-.btn-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
-.check-btn{
-    background-color: blueviolet;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-}
+.check-btn {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+} 
 .eyeIcon{
     position: relative;
-    right: -600px;
-    
+    left: 600px;
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+  .optionsContainer {
+    grid-template-columns: 1fr;
+  }
+  .question{
+    width: 500px;
+    margin: 2rem auto;
+  }
+  .eyeIcon{
+    position: relative;
+    left: 400px;
+}
+  
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) {
+  .question{
+    width: 300px;
+    margin: 2rem auto;
+  }
+    .optionsContainer {
+    grid-template-columns: 1fr;
+  }
+  .eyeIcon{
+    position: relative;
+    left: 200px;
+}
+  
 }
