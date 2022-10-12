@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
       <nav className='navbar'>
-        <h3 className='logo'>5 Minute Quiz</h3>
+        <h3 className='logo'>CodyQuiz</h3>
         {/*
         if large screen ma xa bhane Mobile add huxa
         if mobile screen ma xa bhane nav-links-mobile add huxa

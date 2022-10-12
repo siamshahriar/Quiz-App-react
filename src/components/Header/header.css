@@ -13,34 +13,41 @@ li {
   list-style-type: none;
 }
 .navbar {
+  background-color: rgb(182, 226, 247);
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 10vh;
   box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
-  margin: 0 7.5rem;
+  /* margin: 0 7.5rem; */
   /*box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
 }
 .navbar a{
     text-decoration: none;
+    
 }
 .logo {
   font-size: 30px;
+  padding-left: 10rem;
+  color: rgb(0, 68, 88);
+  font-weight: 600;
 }
 .nav-links {
   display: flex;
   justify-content: flex-end;
-  width: 75%;
+  /* width: 75%; */
+  padding-right: 6rem;
 }
 
 .nav-links li {
-  color: black;
+  color: rgb(0, 68, 88);
   font-size: 20px;
   padding: 10px 20px;
   margin: 0 10px;
   cursor: pointer;
   text-transform: capitalize;
 }
+
 .hero {
   text-align: center;
   margin-top: 15%;
@@ -58,6 +65,20 @@ button {
   font-size: 20px;
   background: none;
 }
+@media (max-width: 1160px) {
+  .logo {
+    font-size: 30px;
+    padding-left: 2rem;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    /* width: 75%; */
+    padding-right: 1rem;
+  }
+}
+
+
 @media (max-width: 768px) {
 .navbar{
     margin: 0 1rem;

@@ -8,7 +8,7 @@ const QuizSpecific = () => {
     const {id, name, questions, total} = quizSpecificDetails.data;
     return (
         <div className='quizSpeContainer'>
-            <h2>Quiz of {name}</h2>
+            <h2 className='langName'>Quiz of {name}</h2>
             <div className='qAndA'>
                 {
                     questions.map( que => <Question key={que.id} que={que}></Question>)

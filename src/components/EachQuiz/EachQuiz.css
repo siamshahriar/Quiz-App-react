@@ -22,7 +22,7 @@
 }
 .eachQuiz-details a{
     text-decoration: none;
-    background-color: cyan;
+    background-color: rgb(0, 148, 148);
     color: white;
     border-radius: 5px;
     padding: 5px;

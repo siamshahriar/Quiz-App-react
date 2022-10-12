@@ -2,10 +2,14 @@
   margin: 2rem 0;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 2rem;
+  background-color: #f1f8fc;
 }
 .eachQuestion {
   text-align: center;
   padding: 0 60px;
+  font-size: 1.3rem;
+  color: rgb(0, 38, 82);
+  font-weight: 500;
 }
 .optionsContainer {
   display: grid;
@@ -27,6 +31,8 @@
 .eyeIcon{
     position: relative;
     left: 600px;
+    color: rgb(1, 94, 94);
+    font-size: 1.3rem;
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
