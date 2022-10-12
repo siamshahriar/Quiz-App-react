@@ -1,13 +1,35 @@
 .quizListViewContainer{
-    height: 90vh;
-     display: flex;
+    
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .quizListContainer{
-    display: flex;
+    margin-top: 13rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    
+}
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 768px) {
+    .quizListContainer{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 1rem;
+        
+    }
+    
+}
+@media only screen 
+and (min-device-width : 100px) 
+and (max-device-width : 480px) {
+    .quizListContainer{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1rem;
+        
+    }
     
 }
