@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Question from '../Question/Question';
+import './quizsp.css';
 
 const QuizSpecific = () => {
     const quizSpecificDetails = useLoaderData();
@@ -8,9 +9,9 @@ const QuizSpecific = () => {
     return (
         <div className='quizSpeContainer'>
             <h2>Quiz of {name}</h2>
-            <div>
+            <div className='qAndA'>
                 {
-                    questions.map( que => <Question></Question>)
+                    questions.map( que => <Question key={que.id} que={que}></Question>)
                 }
             </div>
         </div>
