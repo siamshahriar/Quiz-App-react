@@ -1,14 +1,33 @@
 .eachQuiz{
-    height: 250px;
+    padding: 7px;
+    height: 300px;
     width: 250px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
 }
 .eachQuiz img{
     width: 100%;
+    background-color: rgb(180, 238, 255);
+    border-radius: 5px;
 }
 .eachQuiz-details{
+    margin-top: 12px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.eachQuiz-details span{
+    font-weight: 600;
+    color: cadetblue;
 }
 .eachQuiz-details a{
-    color: blue;
+    text-decoration: none;
+    background-color: cyan;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 400;
+}
+.directionIcon{
+    margin-left: 8px;
 }
