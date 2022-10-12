@@ -1,0 +1,14 @@
+.eachQuiz{
+    height: 250px;
+    width: 250px;
+}
+.eachQuiz img{
+    width: 100%;
+}
+.eachQuiz-details{
+    display: flex;
+    justify-content: space-between;
+}
+.eachQuiz-details a{
+    color: blue;
+}
